@@ -19,7 +19,7 @@ DB_HOST=db
 DB_PORT=5432
 
 Клонируем репозиторий:
-git clone git@github.com:Betonomesha1ka/infra_sp2.git
+git clone git@github.com:Igor-Ryba/yamdb_final.git
 
 Запускаем docker-compose.yaml
 docker-compose up
