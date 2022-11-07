@@ -48,7 +48,7 @@ jobs:
         with:
           context: api_yamdb
           push: true
-          tags: yamdb_final:latest 
+          tags: igorryba /yamdb_final:latest 
 
   deploy:
     runs-on: ubuntu-latest
@@ -61,6 +61,7 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_KEY }}
+        passphrase: ${{ secrets.PASSPHRASE }}
         script: |
           sudo docker rm -f $(docker ps -q -a)
           sudo docker rmi -f $(docker image ps -q -a)

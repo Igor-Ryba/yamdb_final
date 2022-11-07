@@ -14,7 +14,7 @@ services:
     env_file:
       - ./.env
   yamdb:
-    image: igorryba/holmnazhope.v2/yamdb_final:latest
+    image: igorryba/yamdb_final:latest
     restart: always
     volumes:
       - ./static_volume:/code/static
