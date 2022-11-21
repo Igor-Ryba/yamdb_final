@@ -26,8 +26,8 @@ docker-compose up
 
 Пересобираем контейнер:
 docker-compose up -d --build
-ебаная моча и гавно 2 yyy
-Выполняем миграции:
+ебаная моча и гавно 2 yyyeee
+
 docker-compose exec web python manage.py migrate
 
 Создаем суперпользователя (вводим почту, логин, пароль):
