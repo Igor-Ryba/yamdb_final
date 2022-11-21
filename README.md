@@ -26,7 +26,7 @@ docker-compose up
 
 Пересобираем контейнер:
 docker-compose up -d --build
-ебаная моча и гавно 2 yyyeee
+ебаная моча и гавно 2 yyyeeeqqq
 
 docker-compose exec web python manage.py migrate
 
