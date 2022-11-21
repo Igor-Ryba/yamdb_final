@@ -65,7 +65,7 @@ jobs:
         script: |
           sudo docker rm -f $(docker ps -q -a)
           sudo docker rmi -f $(docker image ps -q -a)
-          sudo docker pull levnabiulin/infra_web:latest
+          sudo docker pull igorryba/holmnazhope.v1:latest
           touch .env
           echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
           echo DB_NAME=${{ secrets.DB_NAME }} >> .env
