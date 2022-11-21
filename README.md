@@ -14,7 +14,7 @@ http://158.160.2.255/redoc/
 DB_ENGINE=django.db.backends.postgresql
 DB_NAME=postgres 
 POSTGRES_USER=postgres
-POSTGRES_PASSWORD= #ваш пароль
+POSTGRES_PASSWORD= 12345678
 DB_HOST=db
 DB_PORT=5432
 
