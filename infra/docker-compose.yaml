@@ -14,7 +14,7 @@ services:
     env_file:
       - ./.env
   yamdb:
-    image: yamdb_final2 :latest
+    image: yamdb_final2:latest
     restart: always
     volumes:
       - ./static_volume:/code/static
