@@ -65,7 +65,7 @@ jobs:
         script: |
           sudo docker rm -f $(docker ps -q -a)
           sudo docker rmi -f $(docker image ps -q -a)
-          sudo docker pull igorryba/holmnazhope.v1:latest
+          sudo docker pull yamdb_final2:latest
           touch .env
           echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
           echo DB_NAME=${{ secrets.DB_NAME }} >> .env
