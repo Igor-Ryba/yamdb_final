@@ -45,7 +45,7 @@ jobs:
         with:
           push: true
           context: ./api_yamdb
-          tags: milo4ka0503/yamdb:v1
+          tags: igorryba/holmnazhope.v1/yamdb_final:latest
 
   deploy:
     runs-on: ubuntu-latest
