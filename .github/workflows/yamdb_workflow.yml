@@ -45,7 +45,7 @@ jobs:
         with:
           push: true
           context: ./api_yamdb
-          tags: yamdb_final2:latest
+          tags: igorryba/yamdb_final2:latest
 
   deploy:
     runs-on: ubuntu-latest

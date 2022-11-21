@@ -48,7 +48,7 @@ jobs:
         with:
           context: api_yamdb
           push: true
-          tags: yamdb_final2:latest 
+          tags: igorryba/yamdb_final2:latest 
 
   deploy:
     runs-on: ubuntu-latest
@@ -65,7 +65,7 @@ jobs:
         script: |
           sudo docker rm -f $(docker ps -q -a)
           sudo docker rmi -f $(docker image ps -q -a)
-          sudo docker pull yamdb_final2:latest
+          sudo docker pull igorryba/yamdb_final2:latest
           touch .env
           echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
           echo DB_NAME=${{ secrets.DB_NAME }} >> .env
