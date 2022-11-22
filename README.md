@@ -18,6 +18,7 @@ POSTGRES_PASSWORD= password
 DB_HOST=db
 DB_PORT=5432
 
+всё равно моча
 Клонируем репозиторий:
 git clone git@github.com:Igor-Ryba/yamdb_final.git
 
