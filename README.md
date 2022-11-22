@@ -13,8 +13,8 @@ http://158.160.2.255/redoc/
 В директории infra/ создаем файл .env со следующим наполнением:
 DB_ENGINE=django.db.backends.postgresql
 DB_NAME=postgres 
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD= 12345678
+POSTGRES_USER=user
+POSTGRES_PASSWORD= password
 DB_HOST=db
 DB_PORT=5432
 
@@ -26,7 +26,6 @@ docker-compose up
 
 Пересобираем контейнер:
 docker-compose up -d --build
-ебаная моча и гавзаебала эта гавнина
 
 docker-compose exec web python manage.py migrate
 
