@@ -13,7 +13,7 @@ DEBUG = False
 ALLOWED_HOSTS = ['*'
                  'localhost',
                  '127.0.0.1',
-                 '158.160.2.255', ]
+                 '51.250.29.87', ]
 
 
 # Application definition
