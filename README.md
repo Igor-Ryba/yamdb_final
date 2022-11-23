@@ -6,7 +6,7 @@
 Сайт с отзывами о произведениях культуры различных направлений.
 
 Ссылка на развернутый проект:
-http://51.250.29.87/redoc/
+http://51.250.29./redoc/
 
 ## **Как запустить проект:**
 
@@ -18,7 +18,7 @@ POSTGRES_PASSWORD= password
 DB_HOST=db
 DB_PORT=5432
 
-всё равно моча и гавно rrrrыыы
+
 Клонируем репозиторий:
 git clone git@github.com:Igor-Ryba/yamdb_final.git
 
